@@ -1,15 +1,14 @@
 let imagens =[
-'src/assets/imagem3.jpg',
-'src/assets/imagem1.jpg',
-'src/assets/imagem2.jpg',
+'src/assets/burritos.jpg',
+'src/assets/molhos.jpg',
+'src/assets/nachos.jpg',
+'src/assets/tacos.jpg',
 ]
 
-//DECLARANDO AS VARIAVEIS
 
 let i = 0;
 let tempo = 5000;
 
-//CRIANDO A FUNÇÃO DO SLIDESHOW
 
 function slideShow(){
     document.getElementById('image').src = imagens[i];
