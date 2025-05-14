@@ -1,7 +1,7 @@
 let imagens =[
 'src/assets/casa1.jpg'
-src/assets/casa2.jpg
-src/assets/casa3.jpg
+'src/assets/casa2.jpg'
+'src/assets/casa3.jpg'
 ]
 
 
