@@ -36,9 +36,7 @@ header #logo{
     color:	rgb(204, 0, 0);
 }
 .banner #image{
-    width: 100%;
-    height: 100vh;
-    object-fit: cover;
+    
 }
 footer {
 background-color: #8B0000;
@@ -46,6 +44,58 @@ color: white;
 text-align: center;
 padding: 10px;
 margin-top: 40px;
-
 }
 
+/* ESTILIZANDO O CARDÁPIO */
+.pratos {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 40px;
+    gap: 20px;
+    background-color: #fff8f0;
+}
+
+.item {
+    text-align: center;
+    background-color: #ffe5b4;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+    width: 250px;
+}
+
+.item img {
+    width: 100%;
+    height: 260px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.item h3 {
+    margin: 10px 0 5px;
+}
+
+.item p {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.item button {
+    background-color: #e04d01;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.item button:hover {
+    background-color: #c23e00;
+}
+.item h3 {
+    font-family: 'Pacifico', cursive;
+
+
+}
