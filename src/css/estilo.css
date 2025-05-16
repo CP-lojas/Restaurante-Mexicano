@@ -1,3 +1,9 @@
+@font-face {
+  font-family: 'MexicanTequila';
+  src: url('../fonts/MexicanTequila.ttf') format('truetype');
+}
+
+
 body{
     margin: 0;
     padding: 0;
@@ -15,6 +21,7 @@ header{
     justify-content: space-between;
     align-items: center;
     box-shadow: 5px 5px 5px #555;
+    
 }
 header nav ul{
     list-style: none;
@@ -34,6 +41,7 @@ header nav ul li a:hover{
 }
 header #logo{
     color:	rgb(204, 0, 0);
+    font-family: 'MexicanTequila', sans-serif;
 }
 .banner{
     width:100%;
@@ -113,4 +121,25 @@ margin-top: 40px;
     font-family: 'Rye', cursive;
 
 
+}
+
+/*estilizando o sobre */
+.quadro {
+  width: 1700px;
+  padding: 20px;
+  margin: 50px auto;
+  border: 2px solid grey;
+  background-color: #ffe5b4;
+  border-radius: 10px;
+  box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.1);
+  font-family: Arial, sans-serif;
+}
+
+.quadro h2 {
+  margin-top: 0;
+  color: #333;
+}
+
+.quadro p {
+  color: #555;
 }
