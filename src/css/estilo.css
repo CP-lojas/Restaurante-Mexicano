@@ -1,6 +1,6 @@
 @font-face {
-  font-family: 'MexicanTequila';
-  src: url('../fonts/MexicanTequila.ttf') format('truetype');
+  font-family: 'Mexicana';
+  src: url('../fonts/Mexicana.ttf') format('truetype');
 }
 
 
@@ -35,13 +35,53 @@ header nav ul li a{
 }
 
 header nav ul li a:hover{
-    color:goldenrod;
+    color:rgb(204, 0, 0);
     text-decoration: underline;
     border: 2px solid #ccc;
 }
 header #logo{
     color:	rgb(204, 0, 0);
-    font-family: 'MexicanTequila', sans-serif;
+    font-family: 'Mexicana', sans-serif;
+    font-size: 72px;
+}
+.quadro-imagens {
+  width: 90%;
+  max-width: 900px;
+  margin: 50px auto;
+  padding: 30px;
+  background-color: #fff7f0;
+  border: 2px solid #e2c6b5;
+  border-radius: 12px;
+  box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.08);
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+.quadro-imagens h2 {
+  font-size: 32px;
+  margin-bottom: 10px;
+  color: #b03a2e;
+}
+
+.quadro-imagens p {
+  font-size: 18px;
+  margin-bottom: 20px;
+  color: #444;
+}
+
+.galeria {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+}
+
+.galeria img {
+  width: 280px;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
 }
 .banner{
     width:100%;
