@@ -1,3 +1,9 @@
+@font-face {
+  font-family: 'Mexicana';
+  src: url('../fonts/Mexicana.ttf') format('truetype');
+}
+
+
 body{
     margin: 0;
     padding: 0;
@@ -15,6 +21,7 @@ header{
     justify-content: space-between;
     align-items: center;
     box-shadow: 5px 5px 5px #555;
+    
 }
 header nav ul{
     list-style: none;
@@ -28,12 +35,53 @@ header nav ul li a{
 }
 
 header nav ul li a:hover{
-    color:goldenrod;
+    color:rgb(204, 0, 0);
     text-decoration: underline;
     border: 2px solid #ccc;
 }
 header #logo{
     color:	rgb(204, 0, 0);
+    font-family: 'Mexicana', sans-serif;
+    font-size: 72px;
+}
+.quadro-imagens {
+  width: 90%;
+  max-width: 900px;
+  margin: 50px auto;
+  padding: 30px;
+  background-color: #fff7f0;
+  border: 2px solid #e2c6b5;
+  border-radius: 12px;
+  box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.08);
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+.quadro-imagens h2 {
+  font-size: 32px;
+  margin-bottom: 10px;
+  color: #b03a2e;
+}
+
+.quadro-imagens p {
+  font-size: 18px;
+  margin-bottom: 20px;
+  color: #444;
+}
+
+.galeria {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+}
+
+.galeria img {
+  width: 280px;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
 }
 .banner{
     width:100%;
@@ -157,4 +205,84 @@ h2 {
   text-align: center;
 }
 
+
+/*estilizando o sobre */
+.quadro {
+  width: 1700px;
+  padding: 20px;
+  margin: 50px auto;
+  border: 2px solid grey;
+  background-color: #ffe5b4;
+  border-radius: 10px;
+  box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.1);
+  font-family: Arial, sans-serif;
+}
+
+.quadro h2 {
+  margin-top: 0;
+  color: #333;
+}
+
+.quadro p {
+  color: #555;
+}
+
+/*estilizando contato*/
+.formulario-contato {
+  width: 90%;
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 30px;
+  background-color: rgba(255, 255, 255, 0.85);
+  border-radius: 10px;
+  box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.1);
+  font-family: Arial, sans-serif;
+}
+
+.formulario-contato h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #b03a2e;
+}
+
+.formulario-contato label {
+  display: block;
+  margin-top: 15px;
+  font-weight: bold;
+}
+
+.formulario-contato input,
+.formulario-contato textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+.formulario-contato button {
+  margin-top: 20px;
+  width: 100%;
+  padding: 12px;
+  background-color: #b03a2e;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.formulario-contato button:hover {
+  background-color: #8e2c22;
+}
+
+#mensagemStatus {
+  margin-top: 15px;
+  text-align: center;
+  font-size: 14px;
+  color: green;
+}
 
